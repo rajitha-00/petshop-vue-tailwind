@@ -1,7 +1,11 @@
 <template>
-    <section id="shop">
-        shop
-    </section>
+    <div class="wrapper" id="shop">
+        <div class="inner-wrapper">
+            <section >
+                shop
+            </section>
+        </div>
+    </div>
 </template>
 
 <script>

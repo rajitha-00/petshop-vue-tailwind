@@ -1,7 +1,12 @@
 <template>
-    <section id="donation">
-        donation
-    </section>
+    <div class="wrapper" id="donation">
+        <div class="inner-wrapper">
+
+            <section >
+                donation
+            </section>
+        </div>
+    </div>
 </template>
 
 <script>

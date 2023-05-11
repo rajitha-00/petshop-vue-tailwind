@@ -1,0 +1,23 @@
+.petHeader {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.petHeader .navbar {
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+}
+.petHeader .avatar {
+  position: relative;
+  margin: 0;
+}
+.petHeader .avatar .profile {
+  width: 50px;
+  height: 50px;
+  background: #ff0057;
+  border-radius: 50%;
+}/*# sourceMappingURL=Header.css.map */

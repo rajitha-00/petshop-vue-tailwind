@@ -1,7 +1,12 @@
 <template>
-    <section id="about">
-        about us
-    </section>
+    <div class="wrapper" id="about">
+        <div class="inner-wrapper">
+
+            <section >
+                about us
+            </section>
+        </div>
+    </div>
 </template>
 
 <script>

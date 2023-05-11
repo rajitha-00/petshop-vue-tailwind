@@ -1,9 +1,9 @@
 <template>
   <HeaderPet/>
-  <div class="container mx-auto">
+  <div class="mt-20" >
       <router-view/>
   </div>
-  
+
 </template>
 
 <script>

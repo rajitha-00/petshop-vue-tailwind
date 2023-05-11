@@ -1,7 +1,12 @@
 <template>
-    <section id="contact">
-        contact us
-    </section>
+    <div class="wrapper" id="contact">
+        <div class="inner-wrapper">
+
+            <section >
+                contact us
+            </section>
+        </div>
+    </div>
 </template>
 
 <script>

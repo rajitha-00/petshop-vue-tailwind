@@ -2,8 +2,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.petHeader {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.petHeader .navbar {
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+}
+.petHeader .avatar {
+  position: relative;
+  margin: 0;
+}
+.petHeader .avatar .profile {
+  width: 50px;
+  height: 50px;
+  background: #ff0057;
+  border-radius: 50%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: 600px;
+  height: 100px;
+  background: #ff0057;
+  /* Center slide text vertically */
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   font-family: "Gugi", cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .boxSearch {
@@ -13,5 +60,26 @@
 }
 
 section {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   min-height: 100vh;
+  border-bottom: 2px solid #3C2C32;
+}
+
+.wrapper {
+  justify-content: center;
+  padding-top: 100px;
+}
+.wrapper .heroImage {
+  position: relative;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+.wrapper .tipsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=index.css.map */

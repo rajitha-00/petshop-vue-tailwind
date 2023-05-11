@@ -1,7 +1,12 @@
 <template>
-    <section id="rescue">
-        Rescue
-    </section>
+    <div class="wrapper" id="rescue">
+        <div class="inner-wrapper">
+
+            <section >
+                Rescue
+            </section>
+        </div>
+    </div>
 </template>
 
 <script>
