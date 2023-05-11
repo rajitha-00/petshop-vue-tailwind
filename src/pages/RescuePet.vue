@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <section id="rescue">
         Rescue
-    </div>
+    </section>
 </template>
 
 <script>

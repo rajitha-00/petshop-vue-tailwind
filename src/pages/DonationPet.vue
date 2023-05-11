@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <section id="donation">
         donation
-    </div>
+    </section>
 </template>
 
 <script>

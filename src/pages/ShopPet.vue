@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <section id="shop">
         shop
-    </div>
+    </section>
 </template>
 
 <script>
