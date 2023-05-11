@@ -42,5 +42,10 @@ section{
         display: flex;
         justify-content: center;
         align-items: center;
+        .tips{
+            max-width: 600px;
+            width: auto;
+            padding: 30px;
+        }
       }
 }

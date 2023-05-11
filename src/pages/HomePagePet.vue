@@ -6,15 +6,13 @@
                 <img class="heroImage" src="../assets/images/home/heroTheme.png" alt="">
                 <div class="tipsContainer">
                     <div class="tips">
-                        <div class="tipBox">
-                            <div class="tipText">
-                                <h1>Tips,</h1>
+                        <div class="tipBox justify-center text-center">
+                            <div class="tipText text-center">
+                                <h1 class=" text-xl" >Tips,</h1>
                                 <!-- tip1 -->
-                                <p>tip1 text here</p>
-                                <!-- tip2 -->
-                                <p>tip1 text here</p>
-
-                                
+                                <p> Regular checkups are essential for ensuring your dog's health and well-being. 
+                                    Your vet can provide preventive care, such as vaccinations, parasite prevention, and dental care, as well as diagnose and treat any health issues that arise.</p>
+                            
                             </div>
                        </div>
                     </div>
