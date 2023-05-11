@@ -9,7 +9,7 @@
   z-index: 1;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.4431372549);
+  background: rgba(255, 255, 255, 0.5254901961);
 }
 .petHeader .navbar {
   width: 100%;
@@ -88,4 +88,18 @@ section {
   max-width: 600px;
   width: auto;
   padding: 30px;
+}
+
+.vectorShop {
+  position: absolute;
+}
+
+.watermark {
+  position: absolute;
+  justify-self: center;
+  align-self: center;
+  margin: auto;
+  top: 40%;
+  left: 20%;
+  right: 20%;
 }/*# sourceMappingURL=index.css.map */
