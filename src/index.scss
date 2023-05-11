@@ -39,18 +39,47 @@ section{
         margin: 0 auto;
     }
     .tipsContainer{
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
         .tips{
-            max-width: 600px;
+            max-width: 800px;
             width: auto;
             padding: 30px;
         }
       }
 }
+@media only screen and (max-width: 774px) {
+.wrapper{
+
+    .heroImage{
+        position: relative;
+        max-width: 500px;
+        transition: ease-in 0.5s;
+    }
+    .tipsContainer{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        .tips{
+            
+            width: auto;
+            padding: 30px;
+        }
+      }
+}
+}
 .vectorShop{
     position: absolute;
+    width: 100%;
+    max-width: fit-content;
+    img{
+        width: 100%;
+       
+    }
 }
 .watermark{
     position: absolute;

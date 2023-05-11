@@ -1,19 +1,34 @@
 .swiper {
     width: 100%;
-    height: 100%;
+    height: 200px;
     display: flex;
+    position: relative;
+    z-index: 0;
   }
   
   .swiper-slide {
+    position: relative;
     text-align: center;
     font-size: 18px;
-    // background: transparent;
-    width: 600px;
-    height: 100px;
-    background: #ff0057;
+    background: transparent;
+    
+    // background: #ff0057;
     /* Center slide text vertically */
-    // display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
+  .swiper-pagination-bullets-active {
+    background-color: #ff0057 !important;
+        
+}
   
+.swiperPC{
+    position: relative;
+}
+@media only screen and (max-width: 640px) {
+    .swiperPC{
+        position: relative;
+        display: none;
+    }
+}

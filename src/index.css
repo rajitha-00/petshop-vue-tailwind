@@ -6,7 +6,7 @@
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 100;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   background: rgba(255, 255, 255, 0.5254901961);
@@ -29,21 +29,37 @@
 
 .swiper {
   width: 100%;
-  height: 100%;
+  height: 200px;
   display: flex;
+  position: relative;
+  z-index: 0;
 }
 
 .swiper-slide {
+  position: relative;
   text-align: center;
   font-size: 18px;
-  width: 600px;
-  height: 100px;
-  background: #ff0057;
+  background: transparent;
   /* Center slide text vertically */
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.swiper-pagination-bullets-active {
+  background-color: #ff0057 !important;
+}
+
+.swiperPC {
+  position: relative;
+}
+
+@media only screen and (max-width: 640px) {
+  .swiperPC {
+    position: relative;
+    display: none;
+  }
+}
 * {
   font-family: "Gugi", cursive;
 }
@@ -80,18 +96,43 @@ section {
   margin: 0 auto;
 }
 .wrapper .tipsContainer {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .wrapper .tipsContainer .tips {
-  max-width: 600px;
+  max-width: 800px;
   width: auto;
   padding: 30px;
 }
 
+@media only screen and (max-width: 774px) {
+  .wrapper .heroImage {
+    position: relative;
+    max-width: 500px;
+    transition: ease-in 0.5s;
+  }
+  .wrapper .tipsContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .wrapper .tipsContainer .tips {
+    width: auto;
+    padding: 30px;
+  }
+}
 .vectorShop {
   position: absolute;
+  width: 100%;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.vectorShop img {
+  width: 100%;
 }
 
 .watermark {
