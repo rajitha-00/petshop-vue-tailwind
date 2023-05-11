@@ -11,7 +11,8 @@ const routes = [
     // {
     //     name : 'HomePage',
     //     path : '/home',
-    //     component : HomePage
+    //                   
+
 
     // },
     // {

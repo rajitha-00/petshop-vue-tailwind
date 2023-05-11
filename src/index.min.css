@@ -1,1 +1,1 @@
-@tailwind base;@tailwind components;@tailwind utilities
+@tailwind base;@tailwind components;@tailwind utilities;.boxSearch{display:flex;position:relative;justify-content:space-between}
