@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper" id="rescue">
+    <div class="wrapper rescue" id="rescue">
         <div class="inner-wrapper">
 
             <section >

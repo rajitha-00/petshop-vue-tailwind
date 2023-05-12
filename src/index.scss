@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 @import './assets/Header.scss';
 @import './assets/Swiper.scss';
+@import './assets/Rescue.scss';
 
 *{
     font-family: 'Gugi', cursive;
@@ -30,7 +31,7 @@ section{
 }
 .wrapper{
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 90px;
 
     .heroImage{
         position: relative;
