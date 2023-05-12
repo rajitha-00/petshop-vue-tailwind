@@ -1,5 +1,5 @@
 <template>
-  <header class="petHeader text-center text-white p-2 mb-10">
+  <header class="petHeader text-center text-white p-4 mb-10">
     <div class="navbar  text-brown-600 px-6  flex flex-wrap items-center justify-between">
 
       <div class="flex md:items-center cursor-pointer">
