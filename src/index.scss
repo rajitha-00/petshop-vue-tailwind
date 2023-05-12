@@ -34,9 +34,9 @@ section{
 
     .heroImage{
         position: relative;
-        max-width: 1000px;
-        display: block;
+        width: auto ;
         margin: 0 auto;
+       
     }
     .tipsContainer{
         position: relative;
@@ -50,12 +50,13 @@ section{
         }
       }
 }
-@media only screen and (max-width: 774px) {
+@media only screen and (max-width: 640px) {
 .wrapper{
 
     .heroImage{
         position: relative;
-        max-width: 500px;
+        max-width: 300px;
+        width: auto;
         transition: ease-in 0.5s;
     }
     .tipsContainer{
@@ -63,14 +64,34 @@ section{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 200px;
+        height: 500px;
         .tips{
-            
+            position: relative;
+            max-width: 400px !important;
             width: auto;
             padding: 30px;
         }
       }
 }
+}
+@media (min-width:640px) and (max-width:825px) {
+    .heroImage{
+        position: relative;
+        max-width: 550px;
+        width: auto;
+        transition: ease-in 0.5s;
+    }
+    .tipsContainer{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .tips{
+            max-width: 550px !important;
+            width: auto;
+            padding: 30px;
+        }
+      }
 }
 .vectorShop{
     position: absolute;

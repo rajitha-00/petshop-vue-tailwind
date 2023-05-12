@@ -23,12 +23,15 @@
         
 }
   
-.swiperPC{
-    position: relative;
-}
+
 @media only screen and (max-width: 640px) {
-    .swiperPC{
-        position: relative;
-        display: none;
-    }
+  .swiper {
+    width: 100%;
+    height: 350px !important;
+    display: flex;
+    position: relative;
+    z-index: 0;
+    font-size: smaller !important;
+  }
+  
 }

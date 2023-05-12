@@ -1,5 +1,5 @@
 <template>
-    <div class="swiperMb">
+    <div class="swiperMb mx-auto flex ">
 
         <swiper
         :spaceBetween="30"
