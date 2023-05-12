@@ -8,7 +8,7 @@
         </a>
       </div>
 
-      <div @click="toggleNav" class="flex md:hidden ">
+      <div  class="flex md:hidden ">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu" width="35" height="35">
           <g data-name="Layer 2">
             <g data-name="menu-2">
@@ -30,7 +30,7 @@
           mt-8
           space-y-4
           md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
-          :class="showMenu ? 'flex' : 'hidden'"
+         
           >
             <li class="md:mx-4" v-for="(link, index) in Links" :key="index">
               <a :href="link.link" class="text-sm text-stone-950">{{ link.label }}</a>
@@ -51,13 +51,11 @@
 </template>
 
 <script>
-import { ref } from 'vue';
 export default {
   name: 'HeaderPet',
 
   setup() {
-    let showMenu = ref(false);
-    const toggleNav = () => (showMenu.value = !showMenu.value);
+
     let Links = [
       { label: 'Shop', link: '#shop' },
       { label: 'Rescue', link: '#rescue' },
@@ -66,7 +64,7 @@ export default {
       { label: 'Contact Us', link: '#contact' },
     ];
 
-    return { Links,showMenu, toggleNav };
+    return { Links };
   },
 };
 </script>
