@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 .petHeader {
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   z-index: 100;
@@ -25,6 +25,15 @@
   height: 50px;
   background: #ff0057;
   border-radius: 50%;
+}
+
+.menuMobile {
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.5254901961);
 }
 
 .swiper {

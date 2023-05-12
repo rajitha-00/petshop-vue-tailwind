@@ -23,16 +23,16 @@
               <a :href="link.link" class="md:text-md text-stone-950">{{ link.label }}</a>
             </li>
           </ul>
-          
+                     
         </div>
         
-        <div class="flex items-center md:order-2">
+        <!-- <div class="flex items-center md:order-2">
             <button type="button" class="flex mr-3 text-sm bg-orange-800 rounded-full md:mr-0 focus:ring-4 focus:ring-orange-800 dark:focus:ring-orange-800" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
               <span class="sr-only">Open user menu</span>
               <img class="w-10 h-10 rounded-full" src="../assets/images/home/heroTheme.png" alt="user photo">
-            </button>
+            </button> -->
             <!-- Dropdown menu -->
-            <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+            <!-- <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
               <div class="px-4 py-3">
                 <span class="block text-sm text-yellow-900 dark:text-white">Bawwa Green</span>
                 <span class="block text-sm  text-yellow-500 truncate dark:text-yellow-400">bawbaw@bawwa.com</span>
@@ -44,7 +44,8 @@
               </ul>
             </div>
            
-        </div>
+        </div> -->
+        
         <div  class="flex md:hidden " v-on:click="toggleNavbar()">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu" width="35" height="35">
           <g data-name="Layer 2">

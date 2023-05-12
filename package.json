@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.13",
+    "@heroicons/vue": "^2.0.18",
     "core-js": "^3.8.3",
+    "heroicons": "^2.0.18",
     "swiper": "^9.3.1",
     "vue": "^3.2.13",
     "vue-carousel": "^0.18.0",
