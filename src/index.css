@@ -73,6 +73,14 @@
   background: #F9AD59;
 }
 
+.tile {
+  position: relative;
+}
+
+.category-cards {
+  position: relative;
+}
+
 * {
   font-family: "Gugi", cursive;
 }
@@ -95,12 +103,12 @@ section {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  border-bottom: 2px solid #3C2C32;
 }
 
 .wrapper {
   justify-content: center;
   padding-top: 90px;
+  border-bottom: 2px solid #3C2C32;
 }
 .wrapper .heroImage {
   position: relative;
@@ -135,9 +143,9 @@ section {
   }
   .wrapper .tipsContainer .tips {
     position: relative;
-    max-width: 400px !important;
+    max-width: 300px !important;
     width: auto;
-    padding: 30px;
+    padding: 10px;
   }
 }
 @media (min-width: 640px) and (max-width: 825px) {

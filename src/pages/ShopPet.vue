@@ -19,8 +19,13 @@
                     </div>
                 </div>
 <!-- Categories -->
-                <div class="category-cards">
-                    
+                <div class="category-cards mt-7 px-12">
+                    <div class="category-row md:flex items-center justify-between">
+                            <CategoryTile 
+                            v-for="(cat, index) in Categories" :key="index"
+                            :pathCat="cat.link"
+                            :textCat="cat.label" />
+                    </div>
                 </div>
 <!-- products card -->
                 <div class="item-box">
@@ -36,8 +41,21 @@
 </template>
 
 <script>
+    import CategoryTile from '../components/shop/CategoryTile.vue';
     export default {
-        
+        components: { CategoryTile},
+        setup() {
+            let Categories = [
+            { label: 'Food', link: require('@/assets/images/shop/foods.png') },
+            { label: 'Shampoo', link: require('@/assets/images/shop/shampoo.png') },
+            { label: 'Toys', link: require('@/assets/images/shop/toys.png') },
+            { label: 'Collars', link: require('@/assets/images/shop/colors.png') },
+            { label: 'Houses', link: require('@/assets/images/shop/house.png') },
+            { label: 'Beds', link: require('@/assets/images/shop/beds.png') },
+            ];
+
+            return { Categories };
+        },
     }
 </script>
 
