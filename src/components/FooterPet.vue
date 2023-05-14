@@ -9,7 +9,7 @@
                         <img src="../assets/images/footer/footer.png" class="h-20 mr-3" alt="FlowBite Logo" />
                     </a>
                 </div>
-                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div class="grid grid-cols-4 gap-6 sm:gap-6 sm:grid-cols-3">
                     <div>
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Menu</h2>
                         <ul class="text-gray-600 dark:text-gray-400 font-medium">
@@ -33,7 +33,27 @@
                         </ul>
                     </div>
                     <div>
-
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Shop</h2>
+                        <ul class="text-gray-600 dark:text-gray-400 font-medium">
+                            <li class="pb-2">
+                                <a href="#" class="hover:underline hover:text-white">Foods</a>
+                            </li>
+                            <li class="pb-2">
+                                <a href="#" class="hover:underline hover:text-white">Shampoos</a>
+                            </li>
+                            <li class="pb-2">
+                                <a href="#" class="hover:underline hover:text-white">Toys</a>
+                            </li>
+                            <li class="pb-2">
+                                <a href="#" class="hover:underline hover:text-white">Collars</a>
+                            </li>
+                            <li class="pb-2">
+                                <a href="#" class="hover:underline hover:text-white">Houses</a>
+                            </li>
+                            <li class="pb-2">
+                                <a href="#" class="hover:underline hover:text-white">Beds</a>
+                            </li>
+                        </ul>
                     </div>
                   
                     <div>
@@ -59,7 +79,7 @@
                 </div>
             </div>
         <!-- <hr class="text-center my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> -->
-            <div class="text-center sm:flex sm:items-center sm:justify-center">
+            <div class="text-center mt-5 sm:flex sm:items-center sm:justify-center">
                 <p class="text-center text-sm text-gray-500 dark:text-gray-400">All Rights Reserved. © 2023 <a href="#" class="hover:underline">Jack Pet Supplies & Sherlok Rescue™</a>. 
                 </p>
                 <!-- <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
