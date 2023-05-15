@@ -2,8 +2,27 @@
     background: #F9AD59;
 }
 .rescueBox{
-    position: relative;
-    border: 2px solid #fff;
+    position: absolute;
+    border: 3px solid #fff;
     border-radius: 10px;
     padding: 10px;
+}
+.leftBg{
+    position: relative;
+    top: -10%;
+    left: 0;
+    opacity: 85%;
+    z-index: 0;
+    width: 100%;
+}
+.section-left-rescue{
+    height: 100%;
+    min-height: 90vh;
+    background-image: url("@/assets/images/rescue/rescuebg.png");
+    background-repeat: no-repeat;
+
+}
+.section-right-rescue{
+    position: relative;
+    z-index: 100;
 }
