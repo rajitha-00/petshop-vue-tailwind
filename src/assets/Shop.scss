@@ -4,3 +4,10 @@
 .category-cards{
     position: relative;
 }
+.product-card{
+    z-index: 100 !important;
+    position:  relative !important;
+    background: #fff !important;
+    opacity: 100% !important; 
+    
+}

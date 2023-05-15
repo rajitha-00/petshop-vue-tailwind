@@ -29,7 +29,7 @@
                     </div>
                     
                 </div>
-                <div class="category-cards mt-7 px-12">
+                <!-- <div class="category-cards mt-7 px-12">
                     <div class="category-row md:flex items-center justify-between">
                             <CategoryTile 
                             v-for="(cat, index) in Categories" :key="index"
@@ -38,7 +38,7 @@
                             
                     </div>
                     
-                </div>
+                </div> -->
 <!-- products card -->
                 <div class="item-box">
                     <ProductCardMainVue/>
@@ -64,10 +64,10 @@
             { label: 'Shampoo', link: require('@/assets/images/shop/shampoo.png') },
             { label: 'Toys', link: require('@/assets/images/shop/toys.png') },
             { label: 'Collars', link: require('@/assets/images/shop/colors.png') },
-            { name: 'Houses', path: require('@/assets/images/shop/house.png') },
-            { name: 'Beds', path: require('@/assets/images/shop/beds.png') },
-            { name: 'Houses', path: require('@/assets/images/shop/house.png') },
-            { name: 'Beds', path: require('@/assets/images/shop/beds.png') },
+            { label: 'Houses', link: require('@/assets/images/shop/house.png') },
+            { label: 'Beds', link: require('@/assets/images/shop/beds.png') },
+            { label: 'Houses', link: require('@/assets/images/shop/house.png') },
+            { label: 'Beds', link: require('@/assets/images/shop/beds.png') },
             ];
 
             return { Categories };
