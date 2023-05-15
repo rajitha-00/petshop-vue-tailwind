@@ -20,7 +20,7 @@
                 </div>
 <!-- Categories -->
                 <div class="category-cards mt-7 px-12">
-                    <div class="category-row md:flex items-center justify-between">
+                    <div class="category-row md:flex :flex-wrap items-center justify-between">
                             <CategoryTile 
                             v-for="(cat, index) in Categories" :key="index"
                             :pathCat="cat.link"

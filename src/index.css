@@ -116,6 +116,17 @@
   opacity: 100% !important;
 }
 
+.card-donation {
+  background: linear-gradient(157.52deg, #F9AD59 0.54%, #3C2C32 81.87%);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-donation:hover {
+  background: linear-gradient(202.22deg, #F9AD59 0.66%, #3C2C32 77.3%);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid #fff;
+}
+
 * {
   font-family: "Gugi", cursive;
 }
