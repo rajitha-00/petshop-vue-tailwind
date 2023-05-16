@@ -4,20 +4,28 @@
     </div>
     <div class="wrapper rescue" id="donation">
       <div class="inner-wrapper">
-        <section>
-            <div class="cardSection mx-6 md:flex-wrap md:flex justify-between lg:justify-around items-center">
+        <section class="px-4">
+          <div class="section-cat-header text-brown-600 px-12 mb-10 flex flex-wrap items-center justify-between">
+            <div class="section-left">
+              <div class="title">
+                  <h2>Donation</h2>
+              </div>
+            </div>
+            
+          </div>
+          <div class="cardSection mx-6 md:flex-wrap md:flex justify-between lg:justify-around items-center">
 
-                <DonationCard
-                  v-for="(don, index) in Donation"
-                  :key="index"
-                  :logo="don.logoDon"
-                  :title="don.headDon"
-                  :body="don.bodyDon"
-                />
-            </div>
-            <div class="footerPage flex justify-center mt-5 mb-5 mx-6 md:mb-20">
-                <img src="../assets/images/donation/petfooter.png" alt="">
-            </div>
+            <DonationCard
+              v-for="(don, index) in Donation"
+              :key="index"
+              :logo="don.logoDon"
+              :title="don.headDon"
+              :body="don.bodyDon"
+            />
+          </div>
+          <div class="footerPage flex justify-center mt-10 mb-5 mx-6 md:mb-20">
+              <img src="../assets/images/donation/petfooter.png" alt="">
+          </div>
         </section>
       </div>
     </div>
