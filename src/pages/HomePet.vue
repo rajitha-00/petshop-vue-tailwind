@@ -1,5 +1,12 @@
 <template>
-    
+    <!-- <v-content>
+      <HomePagePet id="#home"/>
+      <ShopPet id="#shop"/>
+      <RescuePet id="#rescue"/>
+      <DonationPet id="#donation"/>
+      <AboutUsPet id="#about"/>
+      <ContactUsPet id="#contact"/>
+    </v-content>  -->
     <HomePagePet/>
     <ShopPet />
     <RescuePet />
