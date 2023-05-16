@@ -2,8 +2,8 @@
     <div class="wrapper" id="about">
         <div class="inner-wrapper">
 
-            <section class="">
-                <div class="section-cat-header lg:max-w-7xl  mx-auto text-brown-600  mb-10 flex flex-wrap items-center justify-between">
+            <section>
+                <div class="section-cat-header lg:max-w-7xl px-7  mx-auto text-brown-600  mb-10 flex flex-wrap items-center justify-between">
                     <div class="section-left">
                         <div class="title">
                             <h2>About Us</h2>
@@ -11,22 +11,22 @@
                     </div>
                     
                 </div>
-                <div class="section-cat-header lg:max-w-7xl  mx-auto text-brown-600 text-start mb-10 flex flex-wrap items-center justify-center">
+                <div class="section-cat-header lg:max-w-7xl px-7 mx-auto text-brown-600 text-start mb-10 flex flex-wrap items-center justify-center">
                     <div class="section-left">
-                        <div class="title ">
+                        <div class="title text-center">
                             <p>Welcome to Jack Pet Supplies and Sherlock Rescue! We are a unique retail store that offers a wide range of high-quality pet products and services, as well as support for the local animal rescue community.</p>
                         </div>
                     </div>
-                    <div class="section-rescue-header mt-10 text-brown-600 flex-wrap  md:flex items-start justify-between">
-                        <div class="section h-full md:w-1/2  w-full justify-center mt-10  items-center">
+                    <div class="section-rescue-header mt-10 text-brown-600 flex-wrap mx-auto flex items-center md:items-start justify-between">
+                        <div class="section h-full md:w-1/2  justify-center mt-10  items-center">
                             <a href="https://www.google.com/maps/dir/APIIT+Kandy+Campus,+Peradeniya+Road,+Kandy/apiit+kandy+campus/@7.2809007,80.6188782,231m/data=!3m1!1e3!4m13!4m12!1m5!1m1!1s0x3ae3673f5e22ab3b:0xcbaef11262bec73!2m2!1d80.6199918!2d7.280984!1m5!1m1!1s0x3ae3673f5e22ab3b:0xcbaef11262bec73!2m2!1d80.6199918!2d7.280984">
 
-                                <img class="w-4/5 hover:scale-105" src="../assets/images/about/map.png" alt="">
+                                <img class="md:w-4/5 md:hover:scale-105" src="../assets/images/about/map.png" alt="">
                             </a>
-                            <img class="py-10 w-4/5" src="../assets/images/about/aboutus.png" alt="">
+                            <img class="py-10 md:w-4/5" src="../assets/images/about/aboutus.png" alt="">
                         </div>
-                        <div class="section-right-rescue mt-10  mb-10 flex md:w-1/2 w-full items-start justify-start ">
-                            <div class="title w-4/5">
+                        <div class="section-right-rescue text-center mt-10 mx-auto  mb-10 flex md:w-1/2 md:items-start md:justify-start ">
+                            <div class="title md:w-4/5">
                                 <h2>Sherlock Rescue</h2>
             
                                 <br/>

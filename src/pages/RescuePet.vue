@@ -31,7 +31,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:max-w-7xl  mx-auto  flex justify-end w-full items-end h-20 ">
+                <div class="lg:max-w-7xl  mx-auto  flex justify-end px-7 w-full items-end h-20 ">
                     <img src="../assets/images/rescue/rescuedown.png" alt="">
                 </div>
             </section>

@@ -5,14 +5,14 @@
     <div class="wrapper" id="contact">
       <div class="inner-wrapper">
         <section>
-          <div class="section-cat-header lg:max-w-7xl  mx-auto text-brown-600  mb-10 flex flex-wrap items-center justify-between">
+          <div class="section-cat-header lg:max-w-7xl px-7 mx-auto text-brown-600  mb-10 flex flex-wrap items-center justify-between">
             <div class="section-left">
               <div class="title">
                 <h2>Contact Us</h2>
               </div>
             </div>
           </div>
-          <div class="flex items-center lg:max-w-7xl  mx-auto justify-center">
+          <div class="flex items-center lg:max-w-7xl px-7 mb-20 mx-auto justify-center">
 
               <div class="contactCard text-white w-full rounded px-10 py-20 " >
                   <div class="cardHeader-contact ">

@@ -5,7 +5,7 @@
     <div class="wrapper rescue" id="donation">
       <div class="inner-wrapper">
         <section class="">
-          <div class="section-cat-header lg:max-w-7xl  mx-auto text-brown-600 mb-10 flex flex-wrap items-center justify-between">
+          <div class="section-cat-header lg:max-w-7xl px-7  mx-auto text-brown-600 mb-10 flex flex-wrap items-center justify-between">
             <div class="section-left">
               <div class="title">
                   <h2>Donation</h2>
@@ -13,7 +13,7 @@
             </div>
             
           </div>
-          <div class="cardSection lg:max-w-7xl  mx-auto md:flex-wrap md:flex justify-between lg:justify-around items-center">
+          <div class="cardSection lg:max-w-7xl px-7 mx-auto md:flex-wrap md:flex justify-between lg:justify-around items-center">
 
             <DonationCard
               v-for="(don, index) in Donation"

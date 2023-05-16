@@ -6,7 +6,7 @@
     <div class="wrapper" id="shop">
         <div class="inner-wrapper">
             <section class="text-start px-4 mb-10">
-                <div class="section-cat-header  text-brown-600  lg:max-w-7xl  mx-auto flex flex-wrap items-center justify-between">
+                <div class="section-cat-header  text-brown-600 px-7  lg:max-w-7xl  mx-auto flex flex-wrap items-center justify-between">
                     <div class="section-left">
                         <div class="title">
                             <h2>Shop</h2>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
 <!-- Categories -->
-                <div class="category-cards mt-7  lg:max-w-7xl mx-auto">
+                <div class="category-cards mt-7 px-7 lg:max-w-7xl mx-auto">
                     <div class="category-row flex flex-wrap items-center justify-between ">
                             <CategoryTile 
                             v-for="(cat, index) in Row1" :key="index"
