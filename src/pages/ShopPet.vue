@@ -6,7 +6,7 @@
     <div class="wrapper" id="shop">
         <div class="inner-wrapper">
             <section class="text-start px-4 mb-10">
-                <div class="section-cat-header text-brown-600 px-12  flex flex-wrap items-center justify-between">
+                <div class="section-cat-header  text-brown-600  lg:max-w-7xl  mx-auto flex flex-wrap items-center justify-between">
                     <div class="section-left">
                         <div class="title">
                             <h2>Shop</h2>
@@ -19,26 +19,15 @@
                     </div>
                 </div>
 <!-- Categories -->
-                <div class="category-cards mt-7 px-12">
-                    <div class="category-row md:flex :flex-wrap items-center justify-between">
+                <div class="category-cards mt-7  lg:max-w-7xl mx-auto">
+                    <div class="category-row flex flex-wrap items-center justify-between ">
                             <CategoryTile 
-                            v-for="(cat, index) in Categories" :key="index"
+                            v-for="(cat, index) in Row1" :key="index"
                             :pathCat="cat.link"
                             :textCat="cat.label" />
-                            
                     </div>
-                    
                 </div>
-                <!-- <div class="category-cards mt-7 px-12">
-                    <div class="category-row md:flex items-center justify-between">
-                            <CategoryTile 
-                            v-for="(cat, index) in Categories" :key="index"
-                            :pathCat="cat.path"
-                            :textCat="cat.name" />
-                            
-                    </div>
-                    
-                </div> -->
+               
 <!-- products card -->
                 <div class="item-box">
                     <ProductCardMainVue/>
@@ -59,18 +48,19 @@
     export default {
         components: { CategoryTile,ProductCardMainVue},
         setup() {
-            let Categories = [
+            let Row1 = [
             { label: 'Food', link: require('@/assets/images/shop/foods.png') },
             { label: 'Shampoo', link: require('@/assets/images/shop/shampoo.png') },
             { label: 'Toys', link: require('@/assets/images/shop/toys.png') },
             { label: 'Collars', link: require('@/assets/images/shop/colors.png') },
             { label: 'Houses', link: require('@/assets/images/shop/house.png') },
             { label: 'Beds', link: require('@/assets/images/shop/beds.png') },
-            { label: 'Houses', link: require('@/assets/images/shop/house.png') },
-            { label: 'Beds', link: require('@/assets/images/shop/beds.png') },
+      
             ];
 
-            return { Categories };
+          
+
+            return { Row1,  };
         },
     }
 </script>

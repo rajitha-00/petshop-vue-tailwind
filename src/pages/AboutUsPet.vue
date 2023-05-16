@@ -3,7 +3,7 @@
         <div class="inner-wrapper">
 
             <section class="">
-                <div class="section-cat-header text-brown-600 px-12 mb-10 flex flex-wrap items-center justify-between">
+                <div class="section-cat-header lg:max-w-7xl  mx-auto text-brown-600  mb-10 flex flex-wrap items-center justify-between">
                     <div class="section-left">
                         <div class="title">
                             <h2>About Us</h2>
@@ -11,18 +11,19 @@
                     </div>
                     
                 </div>
-                <div class="section-cat-header text-brown-600 text-start px-12 mb-10 flex flex-wrap items-center justify-center">
+                <div class="section-cat-header lg:max-w-7xl  mx-auto text-brown-600 text-start mb-10 flex flex-wrap items-center justify-center">
                     <div class="section-left">
                         <div class="title ">
                             <p>Welcome to Jack Pet Supplies and Sherlock Rescue! We are a unique retail store that offers a wide range of high-quality pet products and services, as well as support for the local animal rescue community.</p>
                         </div>
                     </div>
-                    <div class="section-rescue-header mt-10 px-12 text-brown-600 md:flex-wrap  md:flex items-start justify-between">
-                        <div class="section h-full md:w-1/2 flex w-full justify-center mt-10  items-center">
+                    <div class="section-rescue-header mt-10 text-brown-600 flex-wrap  md:flex items-start justify-between">
+                        <div class="section h-full md:w-1/2  w-full justify-center mt-10  items-center">
                             <a href="https://www.google.com/maps/dir/APIIT+Kandy+Campus,+Peradeniya+Road,+Kandy/apiit+kandy+campus/@7.2809007,80.6188782,231m/data=!3m1!1e3!4m13!4m12!1m5!1m1!1s0x3ae3673f5e22ab3b:0xcbaef11262bec73!2m2!1d80.6199918!2d7.280984!1m5!1m1!1s0x3ae3673f5e22ab3b:0xcbaef11262bec73!2m2!1d80.6199918!2d7.280984">
 
                                 <img class="w-4/5 hover:scale-105" src="../assets/images/about/map.png" alt="">
                             </a>
+                            <img class="py-10 w-4/5" src="../assets/images/about/aboutus.png" alt="">
                         </div>
                         <div class="section-right-rescue mt-10  mb-10 flex md:w-1/2 w-full items-start justify-start ">
                             <div class="title w-4/5">
@@ -37,7 +38,7 @@
 Our commitment to exceptional customer service, high-quality pet products, and support for the local animal rescue community sets us apart from other pet supply stores. We invite you to visit us in person and experience the difference for yourself. Thank you for choosing Jack Pet Supplies and Sherlock Rescue, and for supporting our mission to make a difference in the lives of animals in need.                                    <br/>
                                     <br/>
                                 </p>
-                                <img class="py-10" src="../assets/images/about/aboutus.png" alt="">
+                                
                             </div>
                         </div>
                     </div>

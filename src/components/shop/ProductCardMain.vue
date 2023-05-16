@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <div class="mx-auto max-w-2xl py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
       <!-- <h2 class="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2> -->
 
       <div class="mt-6  grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -38,51 +38,51 @@
             let ProductsMain = [
             {
                 id: 1,
-                name: 'Pet Food (500g)',
+                name: 'Pet Food ',
                 href: '#',
                 imageSrc: 'https://assets.petco.com/petco/image/upload/f_auto,q_auto/2823705-center-1',
-                imageAlt: "Front of men's Basic Tee in black.",
+                imageAlt: "petFood.",
                 price: '$40',
-                offer: 'Black',
+                offer: '(500g)',
             },
             {
                 id: 2,
-                name: 'Basic 33 Tee',
+                name: 'Pet Food',
                 href: '#',
                 imageSrc: 'https://www.skinners.co.uk/wp-content/uploads/2021/07/ft-grain-free-15kg.jpg',
-                imageAlt: "Front of men's Basic Tee in black.",
-                price: '$35',
-                offer: 'Black',
+                imageAlt: "petFood",
+                price: '$75',
+                offer: '(1kg)',
             },
             {
                 id: 3,
-                name: 'Basic  23  Tee',
+                name: 'Pet Food',
                 href: '#',
                 imageSrc: 'https://i5.walmartimages.com/asr/927079b1-bf90-459f-8cdb-a5175f8a2d39.a2fe8bd75d560014eaa09304c91ab947.jpeg',
-                imageAlt: "Front of men's Basic Tee in black.",
+                imageAlt: "petFood",
                 price: '$35',
-                offer: 'Black',
+                offer: '(3kg)',
             },
             {
-                id: 3,
-                name: 'Basic  23  Tee',
+                id: 4,
+                name: 'Toy Chiken',
                 href: '#',
                 imageSrc: 'https://static-01.daraz.lk/p/ee33afce6fc3bbda6e824078c0c7fcdc.jpg',
-                imageAlt: "Front of men's Basic Tee in black.",
-                price: '$35',
-                offer: 'Black',
+                imageAlt: "petFood",
+                price: '$60',
+                offer: 'Unit: 1',
             },
             {
-                id: 3,
-                name: 'Basic  23  Tee',
+                id: 5,
+                name: 'Toy Banana Dog',
                 href: '#',
                 imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-lzLT2WF65XL2WJ8ma0U2Op1PkrPQqymMEw&usqp=CAU',
-                imageAlt: "Front of men's Basic Tee in black.",
-                price: '$35',
-                offer: 'Black',
+                imageAlt: "petFood",
+                price: '$55',
+                offer: 'Unit: 1',
             },
             {
-                id: 3,
+                id: 6,
                 name: 'Basic  23  Tee',
                 href: '#',
                 imageSrc: 'https://sc04.alicdn.com/kf/He03836f6c9ef40b9a65aca6e7e498277m.jpg',
@@ -91,7 +91,7 @@
                 offer: 'Black',
             },
             {
-                id: 3,
+                id: 7,
                 name: 'Basic  23  Tee',
                 href: '#',
                 imageSrc: 'https://sc04.alicdn.com/kf/Hd23b039476ec4c10a728ab0e9ba00e256.jpg',
@@ -100,7 +100,7 @@
                 offer: 'Black',
             },
             {
-                id: 3,
+                id: 8,
                 name: 'Basic  23  Tee',
                 href: '#',
                 imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',

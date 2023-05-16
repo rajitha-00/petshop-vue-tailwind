@@ -5,16 +5,16 @@
     <div class="wrapper" id="contact">
       <div class="inner-wrapper">
         <section>
-          <div class="section-cat-header text-brown-600 px-12 mb-10 flex flex-wrap items-center justify-between">
+          <div class="section-cat-header lg:max-w-7xl  mx-auto text-brown-600  mb-10 flex flex-wrap items-center justify-between">
             <div class="section-left">
               <div class="title">
                 <h2>Contact Us</h2>
               </div>
             </div>
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center lg:max-w-7xl  mx-auto justify-center">
 
-              <div class="contactCard text-white w-4/5 rounded px-10 py-20 " >
+              <div class="contactCard text-white w-full rounded px-10 py-20 " >
                   <div class="cardHeader-contact ">
                   <div class="title text-center mb-10" >
                       <p>We love hearing from our customers and fellow pet lovers! Here's how you can get in touch with us:</p>

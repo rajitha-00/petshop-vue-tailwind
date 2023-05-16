@@ -2,7 +2,7 @@
     
 
     <footer class="bg-white p-4 dark:bg-stone-900">
-        <div class="w-full px-6 p-4 py-6 lg:py-8">
+        <div class="w-full lg:max-w-7xl  mx-auto px-6 p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
                     <a href="#" class="flex items-center">

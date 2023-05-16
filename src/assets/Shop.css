@@ -9,6 +9,7 @@
 .product-card {
   z-index: 100 !important;
   position: relative !important;
-  background: #fff !important;
+  background: linear-gradient(180deg, rgba(249, 173, 89, 0.8) -0.04%, rgba(255, 255, 255, 0.8) 58.95%);
   opacity: 100% !important;
+  box-shadow: 4px 6px 10px 5px rgba(0, 0, 0, 0.1);
 }/*# sourceMappingURL=Shop.css.map */

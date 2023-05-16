@@ -3,8 +3,8 @@
         <div class="inner-wrapper mb-20 md:mb-0">
 
             <section class="text-start  ">
-                <div class="section-rescue-header text-brown-600   md:flex items-center justify-between">
-                    <div class="section-left-rescue h-full md:w-2/3 flex w-full justify-center md:justify-end items-center">
+                <div class="section-rescue-header  text-brown-600   md:flex items-center justify-between">
+                    <div class="section-left-rescue mb-10 h-full md:w-2/3 flex w-full justify-center md:justify-end items-center">
                         <div class="rescueBox flex items-center shadow justify-center">
                             <img src="../assets/images/rescue/rescuepet.png" class="w-96" alt="">
                         </div>
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" absolute flex justify-end w-full items-end h-20 px-12 md:bottom-10 md:right-5">
+                <div class="lg:max-w-7xl  mx-auto  flex justify-end w-full items-end h-20 ">
                     <img src="../assets/images/rescue/rescuedown.png" alt="">
                 </div>
             </section>
