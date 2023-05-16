@@ -127,6 +127,10 @@
   border: 2px solid #fff;
 }
 
+.contactCard {
+  background: radial-gradient(85.21% 85.21% at 49.61% 50.63%, #F9AD59 0%, #835C41 43.75%, #3C2C32 78.12%);
+}
+
 * {
   font-family: "Gugi", cursive;
 }
