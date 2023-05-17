@@ -14,7 +14,7 @@
                     </div>
                     <div class="section-right">
                         <div class="title">
-                            <a href="/shop/all" class="bg-white px-4 py-2 rounded "  >Shop More  <span aria-hidden="true" class="text-xl">→</span> </a>
+                            <a href="/shop" class="bg-white px-4 py-2 rounded "  >Shop More  <span aria-hidden="true" class="text-xl">→</span> </a>
                         </div>
                     </div>
                 </div>

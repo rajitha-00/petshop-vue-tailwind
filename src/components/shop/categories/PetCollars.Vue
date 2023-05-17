@@ -1,11 +1,11 @@
 <template>
-    <div class="wrapper" id="houses">
+    <div class="wrapper" id="collars">
         <div class="inner-wrapper">
             <section >
                 <div class="section-cat-header  text-brown-600 px-7  lg:max-w-7xl  mx-auto flex flex-wrap items-center justify-between">
                     <div class="section-left">
                         <div class="title">
-                            <h2>Houses</h2>
+                            <h2>Collars</h2>
                         </div>
                     </div>
                     

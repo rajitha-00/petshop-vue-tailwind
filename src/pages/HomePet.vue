@@ -1,12 +1,5 @@
 <template>
-    <!-- <v-content>
-      <HomePagePet id="#home"/>
-      <ShopPet id="#shop"/>
-      <RescuePet id="#rescue"/>
-      <DonationPet id="#donation"/>
-      <AboutUsPet id="#about"/>
-      <ContactUsPet id="#contact"/>
-    </v-content>  -->
+    <NewNavbar/>
     <HomePagePet/>
     <ShopPet />
     <RescuePet />
@@ -17,6 +10,7 @@
 </template>
 
 <script>
+    import NewNavbar from '../components/navs/NewNavbar.vue';
     import HomePagePet from './HomePagePet.vue';
     import ShopPet from './ShopPet.vue';
     import RescuePet from './RescuePet.vue';
@@ -26,6 +20,7 @@
 
     export default {
         components: {
+            NewNavbar,
             HomePagePet,
             ShopPet,
             RescuePet,
@@ -36,6 +31,3 @@
     }
 </script>
 
-<style lang="scss" scoped>
-
-</style>
