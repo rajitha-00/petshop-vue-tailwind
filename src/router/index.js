@@ -2,6 +2,7 @@ import {createRouter, createWebHistory } from "vue-router"
 
 import HomePet from '../pages/HomePet.vue'
 import LoginPet from '../pages/LoginPet.vue'
+import ShopAll from '../components/shop/ShopAll.vue'
 const routes = [
     {
         name : 'HomePet',
@@ -17,12 +18,12 @@ const routes = [
 
 
     },
-    // {
-    //     name : 'ProfilePage',
-    //     path : '/profile',
-    //     component : ProfilePage
+    {
+        name : 'ShopAll',
+        path : '/shop/all',
+        component : ShopAll
 
-    // }
+    }
 ];
 
 const router = Router( );

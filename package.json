@@ -11,6 +11,7 @@
     "@fawmi/vue-google-maps": "^0.9.79",
     "@headlessui/vue": "^1.7.13",
     "@heroicons/vue": "^2.0.18",
+    "axios": "^1.4.0",
     "core-js": "^3.8.3",
     "heroicons": "^2.0.18",
     "swiper": "^9.3.1",

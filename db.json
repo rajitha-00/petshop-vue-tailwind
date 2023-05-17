@@ -1,0 +1,28 @@
+{
+    "foods": [
+      {
+        "id": 1,
+        "name": "Product 1",
+        "price": 10.99,
+        "description": "Product 1 description",
+        "imageSrc": "./src/assets/db/foods/1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Product 2",
+        "price": 15.99,
+        "description": "Product 2 description",
+        "imageSrc": "./src/assets/db/foods/2.jpg"
+      }
+    ],
+    "toys": [
+      {
+        "id": 1,
+        "name": "Toy 1",
+        "price": 5.99,
+        "description": "Toy 1 description",
+        "imageSrc": "toy1.jpg"
+      }
+    ]
+  }
+  
