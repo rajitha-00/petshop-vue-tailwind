@@ -13,6 +13,46 @@
         "price": 15.99,
         "description": "Product 2 description",
         "imageSrc": "./src/assets/db/foods/2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Product 2",
+        "price": 15.99,
+        "description": "Product 2 description",
+        "imageSrc": "./src/assets/db/foods/2.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Product 2",
+        "price": 15.99,
+        "description": "Product 2 description",
+        "imageSrc": "./src/assets/db/foods/2.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Product 2",
+        "price": 15.99,
+        "description": "Product 2 description",
+        "imageSrc": "./src/assets/db/foods/2.jpg"
+      },{
+        "id": 6,
+        "name": "Product 2",
+        "price": 15.99,
+        "description": "Product 2 description",
+        "imageSrc": "./src/assets/db/foods/2.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Product 2",
+        "price": 15.99,
+        "description": "Product 2 description",
+        "imageSrc": "./src/assets/db/foods/2.jpg"
+      },{
+        "id": 8,
+        "name": "Product 2",
+        "price": 15.99,
+        "description": "Product 2 description",
+        "imageSrc": "./src/assets/db/foods/2.jpg"
       }
     ],
     "toys": [
