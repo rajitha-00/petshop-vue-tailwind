@@ -1,4 +1,5 @@
 <template>
+    <CleanNav/>
     <div class="vectorShop">
         <img src="../assets/images/shop/Vector.png" alt="">
     </div>
@@ -11,8 +12,13 @@
 </template>
 
 <script>
+import CleanNav from '../components/navs/CleanNav.vue';
     export default {
-        name:"LoginPet"
+        name:"LoginPet",
+        components: {
+            CleanNav,
+           
+        }
         
     }
 </script>
