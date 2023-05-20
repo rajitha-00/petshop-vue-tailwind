@@ -35,7 +35,7 @@
                           </div>
                           <div class="button mt-5">
                             <a :href="product.href">
-                              <button class="bg-yellow-600 w-full hover:bg-gray-700 text-white py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                              <button class="primaryBtn w-full hover:bg-gray-700 py-1 px-4 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                                 Buy Now
                               </button>
                             </a>
