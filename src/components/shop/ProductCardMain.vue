@@ -1,10 +1,10 @@
 <template>
-    <div class="mx-auto max-w-2xl py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <div class="mx-auto max-w-2xl md:py-12 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
       <!-- <h2 class="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2> -->
 
-      <div class="mt-6  grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="mt-3  grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div v-for="product in ProductsMain" :key="product.id" class="group hover:scale-105 delay-150 relative px-6  py-3 rounded shadow product-card">
-          <div class="overflow-hidden h-60 rounded-md  lg:aspect-none group-hover:opacity-75 ">
+          <div class="overflow-hidden h-60 rounded-md  lg:aspect-none items-center justify-center mx-auto group-hover:opacity-75 ">
             <img :src="product.imageSrc" :alt="product.imageAlt" class=" object-contain h-60 object-center " />
           </div>
           <div class="mt-5 flex justify-between">

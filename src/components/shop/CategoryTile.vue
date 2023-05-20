@@ -1,5 +1,5 @@
 <template>
-<div class="tile mb-10 shadow lg:px-6  text-center items-center justify-center bg-white rounded">
+<div class="tile mb-5 shadow lg:px-6  text-center items-center justify-center bg-white rounded">
     <!-- <a :href="urlPath"></a> -->
 
     <div class="relative imgCat items-center justify-center">
