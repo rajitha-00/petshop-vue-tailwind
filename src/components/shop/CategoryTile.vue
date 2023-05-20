@@ -1,5 +1,6 @@
 <template>
 <div class="tile mb-10 shadow lg:px-6  text-center items-center justify-center bg-white rounded">
+    <!-- <a :href="urlPath"></a> -->
 
     <div class="relative imgCat items-center justify-center">
 
@@ -12,7 +13,7 @@
 <script>
     export default {
         name: 'CategoryTiles',
-        props: ['pathCat', 'textCat']
+        props: ['pathCat', 'textCat','url']
     }
 </script>
 

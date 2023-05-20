@@ -118,6 +118,12 @@
   box-shadow: 4px 6px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
+.primaryBtn {
+  background: rgba(249, 173, 89, 0.3);
+  border: 2px solid #EC9740;
+  border-radius: 10px;
+}
+
 .card-donation {
   background: linear-gradient(157.52deg, #F9AD59 0.54%, #3C2C32 81.87%);
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);

@@ -13,4 +13,10 @@
   background: linear-gradient(180deg, rgba(249, 173, 89, 0.8) -0.04%, rgba(255, 255, 255, 0.8) 58.95%);
   opacity: 100% !important;
   box-shadow: 4px 6px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.primaryBtn {
+  background: rgba(249, 173, 89, 0.3);
+  border: 2px solid #EC9740;
+  border-radius: 10px;
 }/*# sourceMappingURL=Shop.css.map */
