@@ -16,7 +16,7 @@
         </div>
         <div class="cardFooter flex justify-center items-center mt-5">
             <div class="memberButton">
-                <Button>GET MEMBERSHIP</Button>
+                <button class="primaryBtn w-full py-1 px-4 rounded text-sm font-sans">GET MEMBERSHIP</button>
             </div>
         </div>
     </div>
