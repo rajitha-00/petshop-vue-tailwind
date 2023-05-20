@@ -124,6 +124,14 @@
   border-radius: 10px;
 }
 
+.coupenCard {
+  background: linear-gradient(to right, #EC9740 0%, rgba(236, 150, 64, 0.568627451) 51%, #EC9740 100%);
+  transition: 0.5s;
+}
+.coupenCard:hover {
+  background-position: right center;
+}
+
 .card-donation {
   background: linear-gradient(157.52deg, #F9AD59 0.54%, #3C2C32 81.87%);
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);

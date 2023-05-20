@@ -32,22 +32,18 @@
                 <div class="item-box">
                     <ProductCardMainVue/>
                 </div>
+
+<!-- watermark -->
                 <div class="coupenCard rounded lg:max-w-5xl mx-auto px-7 flex items-center justify-around">
-                    <div class="cardCol ">
-                        <h1 class="text-4xl"> 20% OFF</h1>
-                    </div>
-                    <div class="cardCol w-3/5">
-                        <a href="/login">
-                            <h2 class="text-2xl">Sign Up to Get Your Free Coupon Code </h2>
-    
-                        </a>
-                        <p>You Can Use at The Store</p>
+                    
+                    <div class="cardCol">
+                        <h2 class="text-2xl">COUPEN CODE Fetch by firebase + JPSR + DATE </h2>
+                        <p>Use this at the store for 20% off</p>
                     </div>
                     <div class="cardCol">
                         <img src="../assets/images/shop/coupen.png" alt="">
                     </div>
                 </div>
-<!-- watermark -->
                 <div class="watermark">
                     <img src="../assets/images/shop/water.png" alt="">
                 </div>
@@ -72,10 +68,8 @@
       
             ];
 
-          
 
             return { Row1,  };
         },
     }
 </script>
-

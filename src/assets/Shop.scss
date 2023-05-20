@@ -19,3 +19,13 @@
     border: 2px solid #EC9740;
     border-radius: 10px;
 }
+.coupenCard{
+    background: linear-gradient(to right, #EC9740 0%, #ec964091  51%, #EC9740  100%);
+    transition: 0.5s;
+    &:hover{
+        background-position: right center;
+    }
+}
+         
+
+

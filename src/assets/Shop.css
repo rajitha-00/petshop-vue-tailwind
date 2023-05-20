@@ -19,4 +19,12 @@
   background: rgba(249, 173, 89, 0.3);
   border: 2px solid #EC9740;
   border-radius: 10px;
+}
+
+.coupenCard {
+  background: linear-gradient(to right, #EC9740 0%, rgba(236, 150, 64, 0.568627451) 51%, #EC9740 100%);
+  transition: 0.5s;
+}
+.coupenCard:hover {
+  background-position: right center;
 }/*# sourceMappingURL=Shop.css.map */
