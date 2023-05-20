@@ -1,7 +1,7 @@
 <template>
     <NewNavbar/>
     <HomePagePet/>
-    <ShopPet />
+    <ShopAuth />
     <RescuePet />
     <DonationPet/>
     <AboutUsPet/>
@@ -12,7 +12,7 @@
 <script>
     import NewNavbar from '../components/navs/NewNavbar.vue';
     import HomePagePet from '../pages/HomePagePet.vue';
-    import ShopPet from '../pages/ShopPet.vue';
+    import ShopAuth from '../pages/ShopAuth.vue';
     import RescuePet from '../pages/RescuePet.vue';
     import DonationPet from '../pages/DonationPet.vue';
     import ContactUsPet from '../pages/ContactUsPet.vue';
@@ -22,7 +22,7 @@
         components: {
             NewNavbar,
             HomePagePet,
-            ShopPet,
+            ShopAuth,
             RescuePet,
             DonationPet,
             ContactUsPet,
