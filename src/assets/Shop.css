@@ -1,5 +1,6 @@
 .tile {
   position: relative;
+  box-shadow: 7px 7px 8px rgba(199, 199, 199, 0.4156862745);
 }
 
 .category-cards {

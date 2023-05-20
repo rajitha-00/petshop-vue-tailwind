@@ -52,7 +52,7 @@
             { label: 'Food', link: require('@/assets/images/shop/foods.png') },
             { label: 'Shampoo', link: require('@/assets/images/shop/shampoo.png') },
             { label: 'Toys', link: require('@/assets/images/shop/toys.png') },
-            { label: 'Collars', link: require('@/assets/images/shop/colors.png') },
+            // { label: 'Collars', link: require('@/assets/images/shop/colors.png') },
             { label: 'Houses', link: require('@/assets/images/shop/house.png') },
             { label: 'Beds', link: require('@/assets/images/shop/beds.png') },
       

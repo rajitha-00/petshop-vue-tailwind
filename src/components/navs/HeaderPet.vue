@@ -59,7 +59,7 @@
      { name: 'Foods', href: '#foods' },
      { name: 'Shampoo', href: '#shampoo' },
      { name: 'Toys', href: '#toys' },
-     { name: 'Collars', href: '#collars' },
+    //  { name: 'Collars', href: '#collars' },
      { name: 'Houses', href: '#houses' },
      { name: 'Beds', href: '#beds' },
    ]
