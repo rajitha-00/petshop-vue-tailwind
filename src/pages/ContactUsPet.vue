@@ -43,7 +43,7 @@
                         <div class="signUpCard bg-white py-12 px-10 rounded text-stone-900">
                             <p>SIGN-UP TO GET YOUR COUPON CODE </p>
                         </div>
-                        <div class="socialCard flex justify-between mt-10">
+                        <div id="social"  class="socialCard flex justify-between mt-10">
                             <div class="socialIcon w-14 h-14" >
                                 <a href="#">
                                     <img src="../assets/images/contactus/Instagram.png" alt="">

@@ -64,7 +64,7 @@
     methods: {
       async fetchProducts() {
         try {
-          const response = await axios.get('http://localhost:3000/foods');
+          const response = await axios.get('http://localhost:3000/shampoo');
           this.products = response.data;
         } catch (error) {
           console.error(error);

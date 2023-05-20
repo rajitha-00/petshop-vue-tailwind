@@ -2,6 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .petHeader {
   position: fixed;
   width: 100%;

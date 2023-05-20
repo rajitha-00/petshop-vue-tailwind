@@ -25,7 +25,7 @@
                             </a>
                             <img class="py-10 md:w-4/5" src="../assets/images/about/aboutus.png" alt="">
                         </div>
-                        <div class="section-right-rescue text-center mt-10 mx-auto  mb-10 flex md:w-1/2 md:items-start md:justify-start ">
+                        <div class="section-right-rescue text-start mt-10 mx-auto  mb-10 flex md:w-1/2 md:items-start md:justify-start ">
                             <div class="title md:w-4/5">
                                 <h2>Sherlock Rescue</h2>
             
