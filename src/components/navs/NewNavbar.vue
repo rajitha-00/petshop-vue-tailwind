@@ -50,19 +50,34 @@
     </header>
   </template>
   
-  <script setup>
+  <script >
   import { ref } from 'vue'
   import { Dialog, DialogPanel } from '@headlessui/vue'
   import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+
+    export default{
+      name: 'NewNavBar',
+      components: {
+        Dialog,
+        DialogPanel,
+        Bars3Icon,
+        XMarkIcon
+      },
+      setup(){
+        const mobileMenuOpen = ref(false)
+        const navigation = [
+          { name: 'Shop', href: '#shop' },
+          { name: 'Rescue', href: '#rescue' },
+          { name: 'Donation', href: '#donation' },
+          { name: 'About Us', href: '#about' },
+          { name: 'Contact Us', href: '#contact' },
+        ]
+        return{
+           mobileMenuOpen , navigation
+        }
+      }
+    }
   
-  const navigation = [
-    { name: 'Shop', href: '#shop' },
-    { name: 'Rescue', href: '#rescue' },
-    { name: 'Donation', href: '#donation' },
-    { name: 'About Us', href: '#about' },
-    { name: 'Contact Us', href: '#contact' },
-  ]
   
-  const mobileMenuOpen = ref(false)
   </script>
   
