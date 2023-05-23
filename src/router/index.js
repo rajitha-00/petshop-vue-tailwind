@@ -15,8 +15,7 @@ const routes = [
         name : 'LoginPet',
         path : '/login',
         component : LoginPet
-                      
-
+                         
 
     },
     {
