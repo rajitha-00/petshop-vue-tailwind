@@ -47,6 +47,18 @@
                         <img src="../assets/images/shop/coupen.png" alt="">
                     </div>
                 </div>
+
+                <br>
+                <div class="coupenCard rounded lg:max-w-5xl mx-auto px-7 flex items-center justify-around">
+                    
+                    <div class="cardCol">
+                        <h2 class="text-2xl">COUPEN CODE Fetch by firebase + JPSR + DATE </h2>
+                        <p>Use this at the store for 20% off</p>
+                    </div>
+                    <div class="cardCol">
+                        <img src="../assets/images/shop/coupen.png" alt="">
+                    </div>
+                </div>
 <!-- watermark -->
                 <div class="watermark">
                     <img src="../assets/images/shop/water.png" alt="">
