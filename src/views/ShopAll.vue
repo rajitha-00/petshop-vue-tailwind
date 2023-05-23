@@ -10,30 +10,19 @@
   </template>
   
   <script>
-
   import HeaderPet from '../components/navs/HeaderPet.vue';
   import FoodsPet from '../components/shop/categories/FoodsPet.vue'; 
   import ShampooPet from '../components/shop/categories/ShampooPet.vue';
   import ToysPet from '../components/shop/categories/ToysPet.vue';
-  // import PetCollars from '../components/shop/categories/PetCollars.vue';
   import HousesPet from '../components/shop/categories/HousesPet.vue';
   import BedsPet from '../components/shop/categories/BedsPet.vue';
-  import { getAuth,onAuthStateChanged } from 'firebase/auth'
-  import { useRouter } from 'vue-router'
-  import firebaseConfig from '@/firebaseConfig'
-  import { onBeforeUnmount } from 'vue'
-  firebaseConfig
-  const router = useRouter()
-  const authListener = onAuthStateChanged(getAuth(),function(user) {
-      if (!user) { // not logged in
-          alert('you must be logged in to view this. redirecting to the home page')
-          router.push('/')
-      }
-  });
-  onBeforeUnmount(() => {
-      // clear up listener
-      authListener()
-  })
+  import { getAuth, onAuthStateChanged } from 'firebase/auth';
+  import { useRouter } from 'vue-router';
+  import firebaseConfig from '@/firebaseConfig';
+  import { ref, onMounted } from 'vue';
+  
+  const auth = getAuth(firebaseConfig);
+  
   export default {
     components: {
       FoodsPet,
@@ -41,8 +30,29 @@
       ShampooPet,
       ToysPet,
       HousesPet,
-      BedsPet}
-    
+      BedsPet
+    },
+  
+    setup() {
+      const router = useRouter();
+      const isLoggedIn = ref(false);
+  
+      onMounted(() => {
+        onAuthStateChanged(auth, (user) => {
+          isLoggedIn.value = !!user;
+          
+            if (!isLoggedIn.value) {
+            // Redirect to the home page if not logged in
+            router.push('/');
+            }else {
+                router.push('/shop');
+            }
+        });
+      });
+  
+      return {
+        isLoggedIn
+      };
+    }
   };
   </script>
-  

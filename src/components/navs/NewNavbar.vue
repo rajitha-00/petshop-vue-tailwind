@@ -62,7 +62,7 @@ import { Dialog, DialogPanel } from '@headlessui/vue';
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
 import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
 import firebaseConfig from '@/firebaseConfig';
-import { useRouter } from 'vue-router';
+// import { useRouter } from 'vue-router';
 
 const auth = getAuth(firebaseConfig);
 
@@ -84,12 +84,12 @@ export default {
       { name: 'Contact Us', href: '#contact' },
     ];
     const isLoggedIn = ref(false);
-    const router = useRouter();
+    // const router = useRouter();
 
     const handleSignOut = () => {
       signOut(auth)
         .then(() => {
-          router.push('/');
+          this.isLoggedIn = false;
         })
         .catch((error) => {
           console.log(error);

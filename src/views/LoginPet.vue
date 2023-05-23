@@ -45,7 +45,7 @@ firebaseConfig
                 password: '',
                 router: useRouter(),
                 user: '',
-                isSignedIn: false,
+                isLoggedIn: false,
             }
         },
         methods: {
@@ -67,10 +67,11 @@ firebaseConfig
 
                 // console.log(result.user.displayName);
                 this.user = result.user.displayName;
-                this.isSignedIn = true;
+                this.isLoggedIn = true;
                 this.router.push('/')
                 }).catch((error) => {
                 console.log(error)
+                alert('Sorry you could not sign up' + error.message)
                 });
             },
         }
