@@ -44,6 +44,7 @@
             if (!isLoggedIn.value) {
             // Redirect to the home page if not logged in
             router.push('/');
+            alert('To access the shop you have to login first!')
             }else {
                 router.push('/shop');
             }

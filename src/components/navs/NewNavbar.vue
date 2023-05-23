@@ -22,7 +22,9 @@
           <div v-if="isLoggedIn">
             <button @click="handleSignOut"> Logout </button>
           </div>
-          <a href="/login" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+          <div v-else>
+            <a href="/login" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+          </div>
         </div>
       </nav>
       <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
@@ -47,7 +49,10 @@
                 <div v-if="isLoggedIn">
                   <button @click="handleSignOut"> Logout </button>
                 </div>
-                <a href="/login" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-stone-900 hover:bg-gray-50">Log in</a>
+                <div  v-else>
+
+                  <a href="/login" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-stone-900 hover:bg-gray-50">Log in</a>
+                </div>
               </div>
             </div>
           </div>
@@ -97,7 +102,11 @@ export default {
     };
 
     onAuthStateChanged(auth, (user) => {
-      isLoggedIn.value = !!user;
+      if (user) {
+      isLoggedIn.value = true // if we have a user
+    } else {
+      isLoggedIn.value = false // if we do not
+    }
     });
 
     return {

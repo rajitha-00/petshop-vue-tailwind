@@ -32,7 +32,17 @@
                 <div class="item-box">
                     <ProductCardMainVue/>
                 </div>
-                <div class="coupenCard rounded lg:max-w-5xl mx-auto px-7 flex items-center justify-around">
+                <div v-if="isLoggedIn" class="coupenCard rounded lg:max-w-5xl mx-auto px-7 flex items-center justify-around">
+                    
+                    <div class="cardCol">
+                        <h2 class="text-2xl">COUPEN CODE : {{ user}}JPSR </h2>
+                        <p>Use this at the store for 20% off</p>
+                    </div>
+                    <div class="cardCol">
+                        <img src="../assets/images/shop/coupen.png" alt="">
+                    </div>
+                </div>
+                <div v-else class="coupenCard rounded lg:max-w-5xl mx-auto px-7 flex items-center justify-around">
                     <div class="cardCol ">
                         <h1 class="text-4xl"> 20% OFF</h1>
                     </div>
@@ -49,16 +59,7 @@
                 </div>
 
                 <br>
-                <div class="coupenCard rounded lg:max-w-5xl mx-auto px-7 flex items-center justify-around">
-                    
-                    <div class="cardCol">
-                        <h2 class="text-2xl">COUPEN CODE Fetch by firebase + JPSR + DATE </h2>
-                        <p>Use this at the store for 20% off</p>
-                    </div>
-                    <div class="cardCol">
-                        <img src="../assets/images/shop/coupen.png" alt="">
-                    </div>
-                </div>
+
 <!-- watermark -->
                 <div class="watermark">
                     <img src="../assets/images/shop/water.png" alt="">
@@ -68,26 +69,44 @@
     </div>
 </template>
 
+
 <script>
-    import CategoryTile from '../components/shop/CategoryTile.vue';
-    import ProductCardMainVue from '../components/shop/ProductCardMain.vue';
-    export default {
-        components: { CategoryTile,ProductCardMainVue},
-        setup() {
-            let Row1 = [
-            { label: 'Food', link: require('@/assets/images/shop/foods.png') },
-            { label: 'Shampoo', link: require('@/assets/images/shop/shampoo.png') },
-            { label: 'Toys', link: require('@/assets/images/shop/toys.png') },
-            // { label: 'Collars', link: require('@/assets/images/shop/colors.png') },
-            { label: 'Houses', link: require('@/assets/images/shop/house.png') },
-            { label: 'Beds', link: require('@/assets/images/shop/beds.png') },
-      
-            ];
+import { ref } from 'vue';
+import CategoryTile from '../components/shop/CategoryTile.vue';
+import ProductCardMainVue from '../components/shop/ProductCardMain.vue';
+import firebaseConfig from '@/firebaseConfig';
+import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
-          
+const auth = getAuth(firebaseConfig);
 
-            return { Row1,  };
-        },
-    }
+export default {
+  components: { CategoryTile, ProductCardMainVue },
+  setup() {
+    let Row1 = [
+      { label: 'Food', link: require('@/assets/images/shop/foods.png') },
+      { label: 'Shampoo', link: require('@/assets/images/shop/shampoo.png') },
+      { label: 'Toys', link: require('@/assets/images/shop/toys.png') },
+      { label: 'Houses', link: require('@/assets/images/shop/house.png') },
+      { label: 'Beds', link: require('@/assets/images/shop/beds.png') },
+    ];
+
+    const isLoggedIn = ref(false);
+    const user = ref('');
+
+    onAuthStateChanged(auth, (userData) => {
+      if (userData) {
+        isLoggedIn.value = true;
+        user.value = userData.displayName;
+      } else {
+        isLoggedIn.value = false;
+      }
+    });
+
+    return {
+      Row1,
+      isLoggedIn,
+      user,
+    };
+  },
+};
 </script>
-
