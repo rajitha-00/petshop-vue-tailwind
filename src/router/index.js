@@ -1,9 +1,9 @@
 import {createRouter, createWebHistory } from "vue-router"
 
 import HomePet from '../pages/HomePet.vue'
-import LoginPet from '../pages/LoginPet.vue'
+import LoginPet from '../views/LoginPet.vue'
 import HomeAuth from '../views/HomeAuth.vue'
-import ShopAll from '../components/shop/ShopAll.vue'
+import ShopAll from '../views/ShopAll.vue'
 const routes = [
     {
         name : 'HomePet',
