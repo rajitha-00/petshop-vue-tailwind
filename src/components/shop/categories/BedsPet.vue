@@ -64,7 +64,7 @@
     methods: {
       async fetchProducts() {
         try {
-          const response = await axios.get('http://localhost:3000/beds');
+          const response = await axios.get('https://server-api-16vi.onrender.com/beds');
           this.products = response.data;
         } catch (error) {
           console.error(error);
