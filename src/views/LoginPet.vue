@@ -65,7 +65,7 @@ firebaseConfig
             signInWithPopup(getAuth(), provider)
                 .then((result) => {
 
-                // console.log(result.user.displayName);
+                console.log(result.user);
                 this.user = result.user.displayName;
                 this.isLoggedIn = true;
                 this.router.push('/')
