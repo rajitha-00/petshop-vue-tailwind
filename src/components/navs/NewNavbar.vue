@@ -20,7 +20,27 @@
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
           <div v-if="isLoggedIn">
-            <button @click="handleSignOut"> Logout </button>
+            <Menu as="div" class="relative ml-3">
+              <div>
+                <MenuButton class="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                  <span class="sr-only">Open user menu</span>
+                  <img class="h-8 w-8 rounded-full" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="" />
+                </MenuButton>
+              </div>
+              <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
+              
+                <MenuItems class="absolute right-0 z-10  w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                 
+                  <MenuItem class="px-2 ">
+                    <a  class="'block px-4 py-2 mt-5 text-sm text-gray-700'" href="#">Settings</a>
+                  </MenuItem>
+                  <br>
+                  <MenuItem>
+                    <button class="'block px-4 mt-5 py-2 text-sm text-gray-700'" @click="handleSignOut" > Logout </button></MenuItem>
+                  </MenuItems>
+              </transition>
+            </Menu>
+  
           </div>
           <div v-else>
             <a href="/login" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -45,14 +65,29 @@
               <div class="space-y-2 py-6">
                 <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
               </div>
-              <div class="py-6">
-                <div v-if="isLoggedIn">
+              <div v-if="isLoggedIn" class="py-6">
+                <div class="flex items-center px-5">
+                  <div class="flex-shrink-0">
+                    <img class="h-10 w-10 rounded-full" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="">
+                  </div>
+                  <div class="ml-3">
+                    <div class="text-base">Name</div>
+                    <div class="text-sm">email</div>
+                  </div>
+                  <button type="button" class="ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                    <span class="sr-only">View notifications</span>
+                    <BellIcon class="h-6 w-6" aria-hidden="true" />
+                  </button>
+                </div>
+                <div class="mt-3">
+                  <button> Settings </button>
+                  <br>
                   <button @click="handleSignOut"> Logout </button>
                 </div>
-                <div  v-else>
+              </div>
+              <div  v-else>
 
-                  <a href="/login" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-stone-900 hover:bg-gray-50">Log in</a>
-                </div>
+                <a href="/login" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-stone-900 hover:bg-gray-50">Log in</a>
               </div>
             </div>
           </div>
@@ -63,8 +98,8 @@
   
   <script>
 import { ref } from 'vue';
-import { Dialog, DialogPanel } from '@headlessui/vue';
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
+import { Dialog, DialogPanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue';
+import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline';
 import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
 import firebaseConfig from '@/firebaseConfig';
 // import { useRouter } from 'vue-router';
@@ -77,8 +112,13 @@ export default {
     Dialog,
     DialogPanel,
     Bars3Icon,
-    XMarkIcon
-  },
+    XMarkIcon,
+    Menu,
+    MenuItems,
+    MenuButton,
+    MenuItem,
+    BellIcon
+},
   setup() {
     const mobileMenuOpen = ref(false);
     const navigation = [
