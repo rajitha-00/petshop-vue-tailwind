@@ -1,7 +1,7 @@
 <template>
     
 
-    <footer class="bg-white p-4 dark:bg-stone-900">
+    <footer class="p-4 bg-stone-900">
         <div class="w-full lg:max-w-7xl  mx-auto px-6 p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
