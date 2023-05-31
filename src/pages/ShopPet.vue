@@ -1,4 +1,4 @@
-<template>
+-=<template>
    
     <div class="vectorShop">
         <img src="../assets/images/shop/Vector.png" alt="">

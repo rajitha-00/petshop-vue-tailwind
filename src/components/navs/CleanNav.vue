@@ -37,7 +37,7 @@
            </DialogPanel>
          </Dialog>
        </header>
-     </template>
+</template>
      
      <script setup>
      import { ref } from 'vue'
