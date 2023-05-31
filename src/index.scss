@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
-@import './assets/Header.scss';
-@import './assets/Swiper.scss';
-@import './assets/Rescue.scss';
-@import './assets/Shop.scss';
-@import './assets/Donation.scss';
-@import './assets/ContactUs.scss';
+@import './assets/scss/Header.scss';
+@import './assets/scss/Swiper.scss';
+@import './assets/scss/Rescue.scss';
+@import './assets/scss/Shop.scss';
+@import './assets/scss/Donation.scss';
+@import './assets/scss/ContactUs.scss';
 
 *{
     font-family: 'Gugi', cursive;
