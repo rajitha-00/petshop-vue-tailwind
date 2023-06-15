@@ -28,7 +28,7 @@
               <div>
                 <MenuButton class="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 hover:ring-2 hover:ring-amber-600 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                   <span class="sr-only">Open user menu</span>
-                  <img class="h-8 w-8 rounded-full" :src="userPhoto" alt="" />
+                  <img class="h-8 w-8 rounded-full" src="avatar.jpg" alt="" />
                 </MenuButton>
               </div>
               <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
@@ -72,7 +72,7 @@
               <div v-if="isLoggedIn" class="py-6">
                 <div class="flex items-center px-5">
                   <div class="flex-shrink-0">
-                    <img class="h-10 w-10 rounded-full" :src="userPhoto" alt="">
+                    <img class="h-12 w-12 rounded-full" src="avatar.jpg" alt="">
                   </div>
                   <div class="ml-3">
                     <div class="text-base">{{ user}}</div>

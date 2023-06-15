@@ -18,7 +18,7 @@
                           :key="product.id"
                           class="group hover:scale-105 delay-150 relative px-6 py-3 rounded shadow product-card"
                         >
-                          <div class="overflow-hidden h-60 rounded-md lg:aspect-none group-hover:opacity-75">
+                        <div class="overflow-hidden h-60 rounded-md flex items-center justify-center lg:aspect-none group-hover:opacity-75">
                               <img :src="require('@/assets/db/foods/' + product.id + '.png')" :alt="product.name" class="object-contain h-60 object-center" />
                           </div>
                           <div class="mt-5 flex justify-between">
