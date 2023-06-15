@@ -4,7 +4,7 @@
 
             <section class="text-start  ">
                 <div class="section-rescue-header  text-brown-600   md:flex items-center justify-between">
-                    <div class="section-left-rescue mb-10 h-full md:w-2/3 flex w-full justify-center md:justify-end items-center">
+                    <div class="section-left-rescue mb-10 h-full md:w-/3 flex w-full justify-center md:justify-end items-center">
                         <div class="rescueBox  mx-6 flex items-center shadow justify-center">
                             <img src="../assets/images/rescue/rescuepet.png" class="w-96" alt="">
                         </div>
@@ -13,20 +13,20 @@
                         </div>
                        
                     </div>
-                    <div class="section-right-rescue flex md:w-2/3 w-full items-center justify-center ">
-                        <div class="title w-96 mx-6">
+                    <div class="section-right-rescue flex md:w-2/3 w-full  items-center justify-center ">
+                        <div class="title lg:mr-48 mx-6">
                             <h2>Sherlock Rescue</h2>
                             <hr class="w-full">
                             <br/>
-                            <p >
-                                Sherlock Rescue is a dedicated team of animal lovers who are committed to rescuing and rehabilitating dogs in need. Our mission is to provide a safe and loving environment for dogs who have been abandoned, abused, or neglected, and to find them permanent homes where they can thrive and live happy lives.
+                            <p class="text-sm ">
+                                Step into a world where compassion meets commerce! At our shop, something magical happens when you buy not just one, not two, but three delightful products. You see, with every trio of treasures you take home, 5% of the proceeds embark on a heartfelt journey to Sherlock Rescue. This exceptional team of devoted animal lovers is on a noble mission to rescue, rehabilitate, and restore the lives of dogs in need.
 
-                                <br/>
-                                <br/>
-                                At Sherlock Rescue, we believe that every dog deserves a second chance, and we work tirelessly to provide the care and support that these animals need to heal and recover. Our team of skilled and compassionate volunteers includes experienced animal handlers, trainers, and veterinary professionals who are dedicated to providing the best possible care for our dogs.
-                                <br/>
-                                <br/>
-                                Our rescue center is a place of hope and healing, where dogs receive the medical care, nutrition, and socialization they need to prepare for adoption. We work closely with local animal shelters, veterinary clinics, and other rescue organizations to ensure that every dog in our care has the best chance for a bright future.
+                                Sherlock Rescue is a sanctuary of unwavering dedication, where forgotten souls find solace. Their tireless pursuit of creating a safe haven for abandoned, abused, and neglected dogs knows no bounds. With boundless love and unwavering commitment, they provide each four-legged friend with the warmth, care, and support necessary for their remarkable healing and recovery.
+<br>
+<br>
+                                Imagine a symphony of skillful hands and compassionate hearts working in harmony. Sherlock Rescue's team, consisting of experienced animal handlers, trainers, and veterinary professionals, dances with grace, orchestrating a symphony of care for their precious charges. Together, they ensure that every dog under their wing receives the finest attention, the tenderest touch, and the most impeccable care.
+
+                                Within their rescue center, a tapestry of hope and rejuvenation unfolds. Here, dogs are nurtured back to health, receiving vital medical care, nourishing nutrition, and the socialization they crave. Sherlock Rescue forms deep bonds with local animal shelters, veterinary clinics, and other compassionate organizations, weaving a network of support that guarantees each and every dog in their care a promising future.
                             </p>
                         </div>
                     </div>
