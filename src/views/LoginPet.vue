@@ -5,10 +5,13 @@
     </div>
     <section>
 
-        <div class="loginSection justify-center flex items-center mx-auto">
-            <div class="bg-yellow-200 rounded shadow p-10 justify-center items-center mt-20">
-
-                    <button @click="handleSignInGoogle" class="bg-white w-full mt-10 shadow px-10 py-1 mx-auto rounded hover:bg-red-50-300 ">Login with Google</button>
+        <div class="loginSection justify-center flex items-center mx-auto ">
+            <div class="bg-yellow-200 rounded shadow p-10 justify-center items-center mt-40">
+                <h2 class="text-center mb-5">Sign up to get more offers!</h2>
+                <div class="flex justify-between items-center bg-white shadow px-12 py-2">
+                    <img  class="px-2 " src="google.png" alt=""/>
+                    <button @click="handleSignInGoogle" class="bg-white  py-1 px-1 rounded hover:bg-red-50-300 ">Login with Google</button>
+                </div>    
             </div>
         </div>
     </section>
