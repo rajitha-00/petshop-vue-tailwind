@@ -1,3 +1,4 @@
+<!-- Nav bar for login page -->
 <template>
     <header class="petHeader fixed inset-x-0 top-0 z-50">
          <nav class="navbar  lg:max-w-7xl px-7 lg:mx-auto fixed flex items-center justify-between py-4 " aria-label="Global">

@@ -1,3 +1,4 @@
+<!-- Donation card component data parse using props -->
 <template>
     <div class="card-donation  mt-5 mb-5 md:w-1/3 lg:w-96 px-10 py-12 text-white">
         <div class="cardHeader">

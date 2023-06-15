@@ -1,7 +1,8 @@
-
+<!-- Navbar for shop all -->
    
  <template>
     <header class="petHeader fixed inset-x-0 top-0 z-50">
+      <!-- Desktop view -->
       <nav class="navbar lg:max-w-7xl px-7 lg:mx-auto fixed flex items-center justify-between py-4" aria-label="Global">
         <div class="flex lg:flex-1">
           <a href="/" class="hidden md:flex">
@@ -53,6 +54,7 @@
           </div>
         </div>
       </nav>
+      <!-- mobile view -->
       <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
         <div class="fixed inset-0 z-50" />
         <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto menuMobile bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
