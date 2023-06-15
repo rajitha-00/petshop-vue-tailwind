@@ -4,9 +4,9 @@
 
             <section>
                 <div class="section-cat-header lg:max-w-7xl px-7  mx-auto text-brown-600  mb-10 flex flex-wrap items-center justify-between">
-                    <div class="section-left">
+                    <div class="section-left flex mx-auto ">
                         <div class="title">
-                            <h2>About Us</h2>
+                            <h2 class="md:text-4xl text-xl">About Us</h2>
                         </div>
                     </div>
                     

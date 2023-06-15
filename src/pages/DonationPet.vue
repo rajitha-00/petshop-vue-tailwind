@@ -6,9 +6,9 @@
       <div class="inner-wrapper">
         <section class="">
           <div class="section-cat-header lg:max-w-7xl px-7  mx-auto text-brown-600 mb-10 flex flex-wrap items-center justify-between">
-            <div class="section-left">
-              <div class="title">
-                  <h2>Donation</h2>
+            <div class="section-left mx-auto flex">
+              <div class="title ">
+                  <h2 class="md:text-4xl text-xl text-center">Donation</h2>
               </div>
             </div>
             

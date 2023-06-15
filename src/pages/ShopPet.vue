@@ -9,7 +9,7 @@
                 <div class="section-cat-header  text-brown-600 px-7  lg:max-w-7xl  mx-auto flex flex-wrap items-center justify-between">
                     <div class="section-left">
                         <div class="title">
-                            <h2>Shop</h2>
+                            <h2 class="md:text-4xl text-xl" >Shop</h2>
                         </div>
                     </div>
                     <div class="section-right">

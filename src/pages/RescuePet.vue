@@ -15,7 +15,7 @@
                     </div>
                     <div class="section-right-rescue flex md:w-2/3 w-full  items-center justify-center ">
                         <div class="title lg:mr-48 mx-6">
-                            <h2>Sherlock Rescue</h2>
+                            <h2 class="md:text-4xl text-xl">Sherlock Rescue</h2>
                             <hr class="w-full">
                             <br/>
                             <p class="text-sm ">
