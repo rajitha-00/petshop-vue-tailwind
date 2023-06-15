@@ -9,16 +9,9 @@
 @import './assets/scss/Shop.scss';
 @import './assets/scss/Donation.scss';
 @import './assets/scss/ContactUs.scss';
+@import './assets/scss/Theme.scss';
 
-*{
-    font-family: 'Gugi', cursive;
-    
-}
-body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
+
 .boxSearch{
     display: flex;
     position: relative;
@@ -35,7 +28,7 @@ section{
 .wrapper{
     justify-content: center;
     padding-top: 90px;
-    border-bottom: 2px solid #3C2C32;
+    border-bottom: 2px solid $primary-color;
     .heroImage{
         position: relative;
         width: auto ;
