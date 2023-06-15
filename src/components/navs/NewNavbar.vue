@@ -112,17 +112,17 @@ const auth = getAuth(firebaseConfig);
 
 export default {
   name: 'NewNavBar',
-  components: {
-    Dialog,
-    DialogPanel,
-    Bars3Icon,
-    XMarkIcon,
-    Menu,
-    MenuItems,
-    MenuButton,
-    MenuItem,
-    BellIcon
-},
+    components: {
+      Dialog,
+      DialogPanel,
+      Bars3Icon,
+      XMarkIcon,
+      Menu,
+      MenuItems,
+      MenuButton,
+      MenuItem,
+      BellIcon
+  },
   setup() {
     const mobileMenuOpen = ref(false);
     const navigation = [

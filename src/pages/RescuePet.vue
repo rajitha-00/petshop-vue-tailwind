@@ -5,7 +5,7 @@
             <section class="text-start  ">
                 <div class="section-rescue-header  text-brown-600   md:flex items-center justify-between">
                     <div class="section-left-rescue mb-10 h-full md:w-2/3 flex w-full justify-center md:justify-end items-center">
-                        <div class="rescueBox flex items-center shadow justify-center">
+                        <div class="rescueBox  mx-6 flex items-center shadow justify-center">
                             <img src="../assets/images/rescue/rescuepet.png" class="w-96" alt="">
                         </div>
                         <div>
@@ -14,11 +14,11 @@
                        
                     </div>
                     <div class="section-right-rescue flex md:w-2/3 w-full items-center justify-center ">
-                        <div class="title w-96">
+                        <div class="title w-96 mx-6">
                             <h2>Sherlock Rescue</h2>
                             <hr class="w-full">
                             <br/>
-                            <p>
+                            <p >
                                 Sherlock Rescue is a dedicated team of animal lovers who are committed to rescuing and rehabilitating dogs in need. Our mission is to provide a safe and loving environment for dogs who have been abandoned, abused, or neglected, and to find them permanent homes where they can thrive and live happy lives.
 
                                 <br/>
